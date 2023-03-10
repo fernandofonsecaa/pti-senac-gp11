@@ -2,6 +2,9 @@ import logoImg from '../../assets/logo.png';
 import { useNavigate } from 'react-router-dom'
 import { FiPower } from 'react-icons/fi';
 import match1 from '../../assets/match1.png';
+import match2 from '../../assets/match2.png';
+import match3 from '../../assets/match3.png';
+import match4 from '../../assets/match4.png';
 import group1 from '../../assets/group1.png';
 import group2 from '../../assets/group2.png';
 
@@ -37,11 +40,14 @@ export default function Home() {
                     </li>
 
                     <li>
-                        <img src={match1} alt="jogo 1"/>
+                        <img src={match2} alt="jogo 1"/>
                     </li>
 
                     <li>
-                        <img src={match1} alt="jogo 1"/>
+                        <img src={match3} alt="jogo 1"/>
+                    </li>
+                    <li>
+                        <img src={match4} alt="jogo 1"/>
                     </li>
                 </ul>
 

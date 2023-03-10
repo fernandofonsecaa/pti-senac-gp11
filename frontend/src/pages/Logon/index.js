@@ -5,7 +5,7 @@ import { useState } from 'react'
 
 import api from '../../services/api'
 
-import cupImg from '../../assets/qatar.png';
+import cupImg from '../../assets/copa.png';
 import logoImg from '../../assets/logo.png';
 
 export default function Logon(){
@@ -51,7 +51,7 @@ export default function Logon(){
                 </form>
 
             </section>
-            <img src={cupImg} alt="qatar"/>
+            <img className='home-img' src={cupImg} alt="qatar"/>
         </div>
     );
 }
