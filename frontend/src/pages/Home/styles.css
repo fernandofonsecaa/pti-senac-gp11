@@ -55,21 +55,7 @@
 }
 
 .home-groups img {
-    height: 200px
+    height: 560px;
+    margin-left: 120px;
 }
 
-nav{
-    display: flex;
-    gap: 10rem;
-    align-items: center;
-    background-color: #56042C;
-    color: #fff;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    border-left: 50%;
-    gap: 10rem;
-    align-items: center;
-    
-}

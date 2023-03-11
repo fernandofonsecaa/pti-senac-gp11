@@ -1,30 +1,3 @@
-nav{
-    display: flex;
-    gap: 10rem;
-    align-items: center;
-    background-color: #56042C;
-    color: #fff;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    border-left: 50%;
-    gap: 10rem;
-    align-items: center;
-    
-}
-
-.navOption {
-    font-size: 25px;
-    font-weight: 700;
-    text-decoration: none; 
-    color: #fff;
-    transition: filter 0.2s;
-}
-.navOption:hover{
-    filter: brightness(90%);
-}
-
 .calendarImg {
     height: auto;
     max-width: 100%;

@@ -3,7 +3,7 @@ import './styles.css';
 import { FiPower } from 'react-icons/fi';
 
 import logoNav from '../../assets/logo-nav.jpg';
-import playoffsImg from '../../assets/playoffs.png'
+import playoffsImg from '../../assets/playoffs.jpg'
 
 export default function Playoffs() {
     const navigate = useNavigate();
@@ -29,8 +29,6 @@ export default function Playoffs() {
                 </ul>
         </nav>
             <img className="playoffs-img" src={playoffsImg} alt="playoffs" />      
-         </div>
-        
+         </div>   
     )
-
 }
