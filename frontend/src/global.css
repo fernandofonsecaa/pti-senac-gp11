@@ -69,3 +69,16 @@ form input {
 .back-link:hover{
     opacity: 0.8;
 }
+
+.buttonLogout{
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    margin-left: auto;
+    transition: opacity 0.2s;
+}
+
+.buttonLogout:hover {
+    opacity: 0.8;
+}
