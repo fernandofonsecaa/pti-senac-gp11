@@ -1,5 +1,5 @@
 import logoImg from '../../assets/logo.png';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import { FiPower } from 'react-icons/fi';
 import match1 from '../../assets/match1.png';
 import match2 from '../../assets/match2.png';
@@ -7,6 +7,7 @@ import match3 from '../../assets/match3.png';
 import match4 from '../../assets/match4.png';
 import group1 from '../../assets/group1.png';
 import group2 from '../../assets/group2.png';
+import logoNav from '../../assets/logo-nav.jpg';
 
 import './styles.css'
 
@@ -21,14 +22,29 @@ export default function Home() {
     }
 
    return (
+    <div>
+        <div>
+        <nav>
+            <img src={logoNav} alt="logo-nav"/>
+            <ul>
+                <ul>
+                    <Link className="navOption" to="/home">Menu Principal</Link>
+                    <Link className="navOption" to="/teams">Seleções</Link>
+                    <Link className="navOption" to="/calendar">Calendário</Link>
+                    <Link className="navOption" to="/playoffs">Resultados</Link>
+                </ul>
+                <button className="buttonLogout" onClick={handleLogout} type="button">
+                    <FiPower size={18} color="#56042C" />
+                </button>
+            </ul>
+        </nav>
+    </div>
     <div className="home-container">
+        
         <header>
             <img src={logoImg} alt="cupTime" />
             <span>Bem vindo, {userName}</span>
             
-            <button onClick={handleLogout} type="button">
-                <FiPower size={18} color="#56042C" />
-            </button>
         </header>
 
         <h1>Jogos de hoje</h1>
@@ -68,5 +84,7 @@ export default function Home() {
         
         
     </div>
+    </div>
+    
    )
 }
